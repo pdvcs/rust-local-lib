@@ -1,0 +1,12 @@
+[package]
+name = "greet-consumer"
+version = "0.1.0"
+authors = ["Prasenjeet Dutta <email@example.com>"]
+edition = "2018"
+
+[dependencies]
+greet = { path = "../greet-lib", version = "0.1.0" }
+
+# We can also refer to a git repo:
+# libfoo = { git = "https://github.com/foo/libfoo" }
+# libfoo = { git = "https://github.com/foo/libfoo", branch = "expt" }
